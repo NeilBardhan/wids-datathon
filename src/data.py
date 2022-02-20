@@ -15,3 +15,10 @@ def get_kaggle_competition_data(competition, path):
 
 get_kaggle_competition_data('widsdatathon2022', os.getcwd() + '/data/')
 
+def create_validation_data(path):
+    """[summary]
+
+    Args:
+        path ([type]): [description]
+    """
+    pass
