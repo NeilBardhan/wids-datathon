@@ -3,7 +3,11 @@ import kaggle
 from zipfile import ZipFile
 
 def get_kaggle_competition_data(competition, path):
-    """
+    """[summary]
+
+    Args:
+        competition ([type]): [description]
+        path ([type]): [description]
     """
     kaggle.api.authenticate()
     f = kaggle.api.competition_list_files(competition)
